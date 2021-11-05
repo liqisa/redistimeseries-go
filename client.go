@@ -9,7 +9,7 @@ import (
 
 // TODO: refactor this hard limit and revise client locking
 // Client Max Connections
-var maxConns = 500
+var maxConns = 100
 
 // NewClient creates a new client connecting to the redis host, and using the given name as key prefix.
 // Addr can be a single host:port pair, or a comma separated list of host:port,host:port...
