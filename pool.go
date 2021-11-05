@@ -22,9 +22,9 @@ func NewSingleHostPool(host string, authPass *string) *SingleHostPool {
 	ret := &redis.Pool{
 		Dial:         dialFuncWrapper(host, authPass),
 		TestOnBorrow: testOnBorrow,
-		MaxIdle:      maxConns,
+		MaxIdle:      50,
 		Wait:         true,
-		MaxActive:    50,
+		MaxActive:    100,
 		IdleTimeout:  time.Minute * 5,
 	}
 
