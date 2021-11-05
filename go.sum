@@ -1,3 +1,5 @@
+github.com/RedisTimeSeries/redistimeseries-go v1.4.4 h1:kvVnHdU96E4XwVTwb/R/90o+AdNqTyWSYQHgj6yf0W0=
+github.com/RedisTimeSeries/redistimeseries-go v1.4.4/go.mod h1:qbwAboI+9BGBAWLLLJO2XwoLwkUpcPJ6GRRBEWJ10as=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gomodule/redigo v1.8.2 h1:H5XSIre1MB5NbPYFp+i1NBbb5qN1W8Y8YAQoAYbkm8k=
