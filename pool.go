@@ -23,7 +23,6 @@ func NewSingleHostPool(host string, authPass *string) *SingleHostPool {
 		Dial:         dialFuncWrapper(host, authPass),
 		TestOnBorrow: testOnBorrow,
 		MaxIdle:      50,
-		Wait:         true,
 		MaxActive:    100,
 		IdleTimeout:  time.Minute * 5,
 	}
